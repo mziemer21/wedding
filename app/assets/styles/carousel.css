@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+}
+.grayBackground {
+	background-color: #F5F5F5;
+}
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+	height: 100%;
+	width:100%; 
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	
+	border-radius: 50%;
+}

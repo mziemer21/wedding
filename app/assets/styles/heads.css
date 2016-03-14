@@ -1,0 +1,431 @@
+.carousel-indicators .active {
+    background-color: #777;
+}
+
+.carousel-indicators li {
+    border: 1px solid #777;
+}
+
+#carousel-example-generic {
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-device-width : 736px) {
+    .surfer {
+        max-height: 470px;
+    }
+
+    .matt {
+        position: relative;
+        /*max-height: 230px;*/
+        top: 20px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .mattBody {
+        position: relative;
+        top: -20px;
+    }
+
+    .kaitlin {
+        position: relative;
+        /*max-height: 250px;*/
+        right: 70px;
+        top: 45px;
+        z-index: 1;
+    }
+
+    .kaitlinBody {
+        position: relative;
+        top: -35px;
+    }
+
+    .jimmy {
+        position: relative;
+        top: 40px;
+        right: 30px;
+        /*max-height: 200px;*/
+        z-index: 1;
+    }
+
+    .jimmyBody {
+        position: relative;
+        top: 0px;
+    }
+
+    .nicole {
+        position: relative;
+        top: 80px;
+        right: 25px;
+        /*max-height: 300px;*/
+        z-index: 1;
+    }
+
+    .nicoleBody {
+        position: relative;
+        top: -85px;
+    }
+
+    .misura {
+        position: relative;
+        /*max-height: 190px;*/
+        top: 40px;
+        right: 45px;
+        z-index: 1;
+    }
+
+    .misuraBody {
+        position: relative;
+        top: 5px;
+    }
+
+    .amy {
+        position: relative;
+        /*max-height: 250px;*/
+        right: 50px;
+        top: 60px;
+        z-index: 1;
+    }
+
+    .amyBody {
+        position: relative;
+        top: -60px;
+    }
+
+    .hilbourn {
+        position: relative;
+        /*max-height: 190px;*/
+        right: 40px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .hilbournBody {
+        position: relative;
+        top: 5px;
+    }
+
+    .freshmanK {
+        position: relative;
+        /*max-height: 250px;*/
+        right: 25px;
+        top: 20px;
+        z-index: 1;
+    }
+
+    .freshmanKBody {
+        position: relative;
+        top: -65px;
+    }
+
+    .sean {
+        position: relative;
+        /*max-height: 250px;*/
+        right: 25px;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .seanBody {
+        position: relative;
+        top: -55px;
+    }
+
+    .katie {
+        position: relative;
+        /*max-height: 250px;*/
+        right: 35px;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .katieBody {
+        position: relative;
+        top: -60px;
+    }
+
+    .lewis {
+        position: relative;
+        /*max-height: 195px;*/
+        right: 25px;
+        top: 30px;
+    }
+
+    .lewisBody {}
+
+    .alyssa {
+        position: relative;
+        /*max-height: 320px;*/
+        right: 40px;
+        top: 35px;
+        z-index: 1;
+    }
+
+    .alyssaBody {
+        position: relative;
+        top: -130px;
+    }
+
+    .jon {
+        position: relative;
+        /*max-height: 235px;*/
+        right: 25px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .jonBody {
+        position: relative;
+        top: -40px;
+    }
+
+    .kelly {
+         position: relative;
+        /*max-height: 200px;*/
+        right: 30px;
+        top: 45px;
+        z-index: 1;
+    }
+
+    .kellyBody {
+        position: relative;
+        top: -5px;
+    }
+
+    .trotty {
+        position: relative;
+        /*max-height: 210px;*/
+        right: 25px;
+        top: 20px;
+        z-index: 1;
+    }
+
+    .trottyBody {
+        position: relative;
+        top: -15px;
+    }
+
+    .emily {
+        position: relative;
+        /*max-height: 210px;*/
+        right: 40px;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .emilyBody {
+        position: relative;
+        top: -15px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+    .surfer {
+        max-height: 470px;
+    }
+
+    .matt {
+        position: relative;
+        max-height: 80px;
+        top: 35px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    .mattBody {
+        position: relative;
+        top: 20px;
+    }
+
+    .kaitlin {
+        position: relative;
+        max-height: 90px;
+        right: 30px;
+        top: 50px;
+        z-index: 1;
+    }
+
+    .kaitlinBody {
+        position: relative;
+        top: 20px;
+    }
+
+    .jimmy {
+        position: relative;
+        top: 35px;
+        right: 15px;
+        max-height: 80px;
+        z-index: 1;
+    }
+
+    .jimmyBody {
+        position: relative;
+        top: 20px;
+    }
+
+    .nicole {
+        position: relative;
+        top: 40px;
+        right: 10px;
+        max-height: 130px;
+        z-index: 1;
+    }
+
+    .nicoleBody {
+        position: relative;
+        top: -30px;
+    }
+
+    .misura {
+        position: relative;
+        max-height: 80px;
+        top: 20px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .misuraBody {
+        position: relative;
+        top: 5px;
+    }
+
+    .amy {
+        position: relative;
+        max-height: 115px;
+        right: 20px;
+        top: 25px;
+        z-index: 1;
+    }
+
+    .amyBody {
+        position: relative;
+        top: -30px;
+    }
+
+    .hilbourn {
+        position: relative;
+        max-height: 80px;
+        right: 15px;
+        top: 20px;
+        z-index: 1;
+     }
+
+     .hilbournBody {
+        position: relative;
+        top: 5px;
+    }
+
+    .freshmanK {
+        position: relative;
+        max-height: 115px;
+        right: 10px;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .freshmanKBody {
+        position: relative;
+        top: -25px;
+    }
+
+    .sean {
+        position: relative;
+        max-height: 100px;
+        right: 15px;
+        top: 35px;
+        z-index: 1;
+    }
+
+    .seanBody {
+        position: relative;
+        top: 5px;
+    }
+
+    .katie {
+        position: relative;
+        max-height: 105px;
+        right: 15px;
+        top: 30px;
+        z-index: 1;
+    }
+
+    .katieBody {
+        position: relative;
+        top: 0px;
+    }
+
+    .lewis {
+        position: relative;
+        max-height: 100px;
+        right: 20px;
+        top: 20px;
+    }
+
+    .lewisBody {}
+
+    .alyssa {
+        position: relative;
+        max-height: 170px;
+        right: 15px;
+        top: 25px;
+        z-index: 1;
+    }
+
+    .alyssaBody {
+        position: relative;
+        top: -75px;
+    }
+
+    .jon {
+        position: relative;
+        max-height: 140px;
+        right: 10px;
+        top: 60px;
+        z-index: 1;
+    }
+
+    .jonBody {
+        position: relative;
+        top: 10px;
+    }
+
+    .kelly {
+        position: relative;
+        max-height: 105px;
+        right: 15px;
+        top: 45px;
+        z-index: 1;
+    }
+
+    .kellyBody {
+        position: relative;
+        top: 20px;
+    }
+
+    .trotty {
+        position: relative;
+        max-height: 100px;
+        right: 15px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .trottyBody {
+        position: relative;
+        top: 20px;
+    }
+
+    .emily {
+        position: relative;
+        max-height: 105px;
+        right: 20px;
+        top: 30px;
+        z-index: 1;
+    }
+
+    .emilyBody {
+        position: relative;
+        top: 20px;
+    }
+}

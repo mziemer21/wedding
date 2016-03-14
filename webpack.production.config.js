@@ -3,6 +3,8 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var path = require('path');
 
+var inlineFileSizeLimit = 8192;
+
 module.exports = {
   entry: __dirname + "/app/main.js",
   output: {
@@ -31,6 +33,30 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract('style', 'css?modules!postcss')
+      },
+      {
+        test: /\.gif/,
+        loader: "url-loader?limit=" + inlineFileSizeLimit + "&mimetype=image/gif&name=images/[hash].[ext]"
+      },
+      {
+        test: /\.jpg/,
+        loader: "url-loader?limit=" + inlineFileSizeLimit + "&mimetype=image/jpg&name=images/[hash].[ext]"
+      },
+      {
+        test: /\.png/,
+        loader: "url-loader?limit=" + inlineFileSizeLimit + "&mimetype=image/png&name=images/[hash].[ext]"
+      },
+      {
+        test: /\.svg/,
+        loader: "url-loader?limit=" + inlineFileSizeLimit + "&mimetype=image/svg+xml&name=images/[hash].[ext]"
+      },
+      {
+        test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=" + inlineFileSizeLimit + "&minetype=application/font-woff&name=fonts/[hash].[ext]"
+      },
+      {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=" + inlineFileSizeLimit + "&minetype=application/octet-stream&name=fonts/[hash].[ext]"
       }
     ]
   },

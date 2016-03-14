@@ -1,3 +1,10 @@
 {
-	"extends": "airbnb"	
+	"parser": "babel-eslint",
+	"extends": "airbnb",
+	rules: {
+    	comma-dangle: [2, "never"],
+    	react/prefer-stateless-function: [0],
+    	max-len: [0, {}],
+    	react/jsx-no-bind: [0]
+    }
 }

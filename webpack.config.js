@@ -2,6 +2,8 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 
+var inlineFileSizeLimit = 8192;
+
 module.exports = {
   devtool: 'eval-source-map',
 
@@ -20,9 +22,23 @@ module.exports = {
       }
     ],
     loaders: [
-      { test: /\.json$/, loader: "json" },
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
-      { test: /\.css$/, loader: 'style!css?modules!postcss' }
+      { 
+        test: /\.json$/,
+        loader: "json"
+      },
+      { 
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel'
+      },
+      { 
+        test: /\.css$/,
+        loader: 'style!css'
+      },
+      {
+        test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/,
+        loader: 'url-loader?limit='+inlineFileSizeLimit+'&name=[name]-[hash].[ext]'
+      }
     ]
   },
   postcss: [
@@ -38,6 +54,7 @@ module.exports = {
   ],
 
   devServer: {
+    port: 8081,
     colors: true,
     historyApiFallback: true,
     inline: true,
