@@ -37,6 +37,7 @@
     "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.10.0",
     "json-loader": "^0.5.4",
+    "lodash": "^4.7.0",
     "postcss-loader": "^0.8.2",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.13.0",

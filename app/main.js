@@ -8,6 +8,7 @@ import Homies from './views/Homies';
 import Pics from './views/Pics';
 import Rsvp from './views/Rsvp';
 
+// set up routing
 render((
     <Router history={browserHistory}>
 		<Route path="/" component={Shell}>

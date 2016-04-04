@@ -5,7 +5,6 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../../assets/styles/shell.css';
 
 export default class Shell extends Component {
-
   static propTypes = {
     children: React.PropTypes.oneOfType([
       React.PropTypes.arrayOf(React.PropTypes.node),
@@ -13,6 +12,7 @@ export default class Shell extends Component {
     ])
   };
 
+  // render the navigation menu & inner content
   render() {
     return (
       <div>
